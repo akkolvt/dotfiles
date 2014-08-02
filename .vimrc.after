@@ -1,10 +1,13 @@
 set lines=49 columns=205
 colorscheme cobalt
+
 map <C-n> :NERDTreeToggle<CR>
-"let delimitMate_expand_cr = 0
+map <C-C> :ClearCtrlPCache<CR>
+
 "let delimitMate_autoclose = 0
 let delimitMate_offByDefault = 1
 "set runtimepath^=~/.vim/janus/vim/tools/ctrlp/plugin/ctrlp.vim
+
 set expandtab
 set tabstop=2
 set number
