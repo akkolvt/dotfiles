@@ -34,7 +34,7 @@ let g:rainbow_active = 0
 
 map <C-n> :NERDTreeToggle<CR>
 map <C-C> :ClearCtrlPCache<CR>
-map <C-w> :RainbowToggle<CR>
+map <C-b> :RainbowToggle<CR>
 
 " let delimitMate_autoclose = 0
 " let delimitMate_offByDefault = 1
