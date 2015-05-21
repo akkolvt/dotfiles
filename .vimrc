@@ -9,6 +9,7 @@ set shiftwidth=2
 set softtabstop=2
 set number
 set numberwidth=4
+set hlsearch
 
 execute pathogen#infect()
 set runtimepath^=~/.vim/bundle/ctrlp.vim
@@ -41,4 +42,6 @@ map <C-b> :RainbowToggle<CR>
 
 noremap <S-l> gt
 noremap <S-h> gT
+" Удаление лишних пробелов
+nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 " cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
