@@ -5,6 +5,7 @@ colorscheme cobalt
 " call togglebg#map("<F5>")
 
 set expandtab
+set showcmd
 set shiftwidth=2
 set softtabstop=2
 set number
